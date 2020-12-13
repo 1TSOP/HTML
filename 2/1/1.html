@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script>
+			function is1() {
+				alert('Вы не угадали!');
+			}
+			function is2() {
+				alert('Вы угадали!');
+			}
+		</script>
+	</head>
+	<body>
+		<p>Прослушайте мелодию:</p>
+		<audio controls>
+			<source src = "media/attention.mp3" type = "audio/mp3">
+		</audio>
+		<form>
+			<button type="button" onclick="is1()">Арабские ночи</button>
+			<button type="button" onclick="is1()">Плакала</button>
+			<button type="button" onclick="is2()">Attention</button>
+			<button type="button" onclick="is1()">You See The Light</button>
+		</form>
+	</body>
+</html>

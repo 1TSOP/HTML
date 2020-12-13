@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script>
+			function is1() {
+				alert('Вы не угадали!');
+			}
+			function is2() {
+				alert('Вы угадали!');
+			}
+		</script>
+	</head>
+	<body>
+		<p>Прослушайте мелодию:</p>
+		<audio controls>
+			<source src = "media/way-down-we-go.mp3" type = "audio/mp3">
+		</audio>
+		<form>
+			<button type="button" onclick="is2()">Way Down We Go</button>
+			<button type="button" onclick="is1()">Лирика</button>
+			<button type="button" onclick="is1()">Tuesday</button>
+			<button type="button" onclick="is1()">Украду</button>
+		</form>
+	</body>
+</html>
